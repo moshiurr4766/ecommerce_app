@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
-
 import 'package:e_commerce_flutter/screens/home/pages/home.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyEcom());
@@ -11,8 +10,10 @@ class MyEcom extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
-      title: 'Freevies E-Commerce',
+      title: "Freebies E-Commerce",
+      debugShowCheckedModeBanner: false,
       home: Home(),
     );
   }
