@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ecommerce_app/screens/home/pages/home.dart';
+import 'package:e_commerce_flutter/screens/home/pages/home.dart';
 
 void main() {
   runApp(const MyEcom());
