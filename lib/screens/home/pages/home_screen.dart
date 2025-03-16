@@ -1,13 +1,18 @@
-import 'package:flutter/material.dart';
+import 'dart:convert';
 
-class HomeScreen extends StatefulWidget {
+import 'package:flutter/material.dart';
+import 'package:http/http.dart';
+
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
+  Future fetchData() async {
+    var response = await http.get(Uri.parse(''));
+    if (response.statusCode == 200) {
+      var data = jsonDecode(response.body);
+    }
+  }
 
-class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
