@@ -22,5 +22,5 @@ class FColors {
 
   // Font Colors
   static const oceanBlue = Color(0xFF3669C9);
-  static const oceanBluet = Color(0xFF3669C9);
+  static const dark = Color(0xFF000000);
 }
