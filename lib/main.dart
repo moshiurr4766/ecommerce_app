@@ -1,6 +1,5 @@
-import 'package:e_commerce_flutter/screens/home/pages/home.dart';
 import 'package:flutter/material.dart';
-
+import 'screens/home/page/home.dart';
 
 void main() {
   runApp(const FreebeesEcom());
